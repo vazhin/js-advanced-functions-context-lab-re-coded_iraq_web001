@@ -10,6 +10,7 @@ let createEmployeeRecord = (arr) => {
     timeOutEvents: []
   }
 }
+<<<<<<< HEAD
 
 let createEmployeeRecords = (arrOfArrays) => {
   return arrOfArrays.map(arr => createEmployeeRecord(arr))
@@ -54,6 +55,8 @@ function calculatePayroll(arrOfRecords) {
     return sum += allWagesFor.call(obj)
   }, 0)
 }
+=======
+>>>>>>> c013f526d34d08d14eefc5a6c1a13c166ec80923
 /*
  We're giving you this function. Take a look at it, you might see some usage
  that's new and different. That's because we're avoiding a well-known, but
